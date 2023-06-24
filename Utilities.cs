@@ -18,7 +18,7 @@ namespace StackDataStructureAlgorithms
 			}
 		}
 
-		public  static void ClearScreen()=>	Console.Clear();
+		public  static void ClearScreen() => Console.Clear();
 		public static string EndOfProgram() =>$"You have now exited from the Program";
 
 	}
