@@ -65,7 +65,7 @@ namespace StackDataStructureAlgorithms
                         }
                         finally
                         {
-                            ClearScreen();
+                            Utilities.ClearScreen();
                         }
                         break;
                     case 2:
@@ -92,7 +92,7 @@ namespace StackDataStructureAlgorithms
                         Console.WriteLine("Existing......");
                         break;
                     case 5:
-                        st.ClearScreen();
+                        Utilities.ClearScreen();
                         break;
                     default:
                         Console.WriteLine("wrong choice, please try again! ");
@@ -106,10 +106,7 @@ namespace StackDataStructureAlgorithms
 
         }
 
-        private void ClearScreen()
-        {
-            Console.Clear();
-        }
+      
 
         private Boolean Push()
 
