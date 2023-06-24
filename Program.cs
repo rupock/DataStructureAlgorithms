@@ -9,8 +9,8 @@ namespace StackDataStructureAlgorithms
 			StackArray st = new StackArray();
          
 			st.main();
-		
-			Console.WriteLine("----QUEUE----");
-		}
+
+            Console.WriteLine(Utilities.EndOfProgram());
+        }
 	}
 }

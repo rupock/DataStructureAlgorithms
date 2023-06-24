@@ -21,9 +21,9 @@ namespace StackDataStructureAlgorithms
             int choice = 0;
 
 
-
-            while (choice != 4)
-            {
+			//while (true)
+			 while (choice != 4)
+			{
                 Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.WriteLine("------MANU--------");
@@ -41,7 +41,7 @@ namespace StackDataStructureAlgorithms
                 try
                 {
                     Console.WriteLine($"Please enter your choice:");
-                    //  choice = Convert.ToInt32(Console.ReadLine());
+                  // choice = Convert.ToInt32(Console.ReadLine());
                     choice = Utilities.GetNumberFromInput();
                 }
                 catch(Exception ex)

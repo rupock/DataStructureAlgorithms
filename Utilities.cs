@@ -22,5 +22,6 @@ namespace StackDataStructureAlgorithms
 		{
 			Console.Clear();
 		}
+		public static string EndOfProgram() =>$"You have now exited from the Program";
 	}
 }
