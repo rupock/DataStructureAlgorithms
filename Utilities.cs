@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace StackDataStructureAlgorithms
 {
 	public static class Utilities
@@ -21,6 +16,11 @@ namespace StackDataStructureAlgorithms
 
 				Console.WriteLine("Invalid input. Please enter a valid number: ");
 			}
+		}
+
+		public  static void ClearScreen()
+		{
+			Console.Clear();
 		}
 	}
 }
