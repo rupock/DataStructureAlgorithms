@@ -14,20 +14,17 @@ namespace StackDataStructureAlgorithms
         int[] arr = new int[5];
 
 
-        public void main()
+        public void Main()
         {
             StackArray st = new StackArray();
             st.top = -1;
             int choice = 0;
 
 
-			//while (true)
+			
 			 while (choice != 4)
 			{
-                Console.BackgroundColor = ConsoleColor.Yellow;
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.WriteLine("------MANU--------");
-                Console.ResetColor();
+                Utilities.Manu();
                 Console.WriteLine("\n** STACK *");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("1. Push");
@@ -118,14 +115,14 @@ namespace StackDataStructureAlgorithms
 
             if (top == size - 1)
             {
-                Console.WriteLine("Stack overflow");
+                Console.WriteLine("\nStack overflow. Stack is full");
                 return false;
             }
             else
             {
                 top++;
                 var result = arr[top] = value;
-                Console.WriteLine($"Value inserted at top of the stack:{result}");
+                Console.WriteLine($"Value inserted at top of the stack:{result}\n Insertion was successfull");
             }
 
             return true;
